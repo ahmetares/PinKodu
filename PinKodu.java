@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 public class PinKodu {
 	
-	static String tarih;  // 6 "Sevecen ve romantiksiniz. Tam bir salon insanısınızdır."
-	// 7 "Duygusal, yaratıcı, mahremiyetlerine düşkünsünüz. Elde edilmesi zorsunuz ve İlişkiye girdiğiniz insana gerçek bir bağlılık gösterirsiniz."
+	static String tarih;  
   	static String[] ozellikler = {
 			  "Lider, yaratıcı, eleştirilere tahammülsüz, çabuk parlayıp çabuk sönen birisiniz. İletişim alanında başarılısınız. Adalet duygularınız gelişmiştir."
 			, "Genel olarak çok verici, kendilerinden çok karşıdakini düşünen ailelerine düşkün, temkinli ve sezgisel bir insansınız. Mükemmel ebeveynsinizdir."
