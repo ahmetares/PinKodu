@@ -3,16 +3,16 @@ import java.util.Scanner;
 
 public class PinKodu {
 	
-	static String tarih;
+	static String tarih;  // 6 "Sevecen ve romantiksiniz. Tam bir salon insanısınızdır."
+	// 7 "Duygusal, yaratıcı, mahremiyetlerine düşkünsünüz. Elde edilmesi zorsunuz ve İlişkiye girdiğiniz insana gerçek bir bağlılık gösterirsiniz."
   	static String[] ozellikler = {
 			  "Lider, yaratıcı, eleştirilere tahammülsüz, çabuk parlayıp çabuk sönen birisiniz. İletişim alanında başarılısınız. Adalet duygularınız gelişmiştir."
 			, "Genel olarak çok verici, kendilerinden çok karşıdakini düşünen ailelerine düşkün, temkinli ve sezgisel bir insansınız. Mükemmel ebeveynsinizdir."
 			, "Organize, tutkulu, istediklerini elde etmek için düşmanca davranmaktan çekinmeyen kişisiniz."
 			, "Esrarengiz, hedefleri olan, tanımlanması güçsünüz. Kendinize özgü tarzınız var."
 			, "Zarif ve dışa dönüksünüz. Zihinsel ve fiziksel olarak sürekli hareket halinde ve mizahi, yenilikçi bir kişisiniz."
-			, "Duygusal, yaratıcı, mahremiyetlerine düşkünsünüz. Elde edilmesi zorsunuz ve İlişkiye girdiğiniz insana gerçek bir bağlılık gösterirsiniz."
 			, "Sevecen ve romantiksiniz. Tam bir salon insanısınızdır."
-			, "Duygusal, yaratıcı, mahremiyetlerine düşkünsünüz. Sizin elde edilmeniz zordur. İlişkiye girdiğiniz insana gerçek bir bağlılık gösterirsiniz."
+			, "Duygusal, yaratıcı, mahremiyetlerine düşkünsünüz. Elde edilmesi zorsunuz ve İlişkiye girdiğiniz insana gerçek bir bağlılık gösterirsiniz."
 			, "Sabırlı, başarılı, azimlisiniz. Şefkat ihtiyacı hissedersiniz. Zarif yüz hatlarınız olduğu için ilerleyen yaşlarında da genç görünürsünüz"
 			, "Saf, masum, kolay güvenenirsiniz. Ne var ki sezgi güçleri sayesinde sanılanın aksine kolay kandırılamassınız. Kendinize olan güvene rağmen yine de yaptıklarını onaylatan birisisiniz."};
 	
@@ -196,10 +196,7 @@ public class PinKodu {
 				kisi.add(ozellikler[8]);
 				break;
 			}
-			case 10:{
-				kisi.add(ozellikler[9]);
-				break;
-			}
+			
 			
 			default:
 				throw new IllegalArgumentException("Unexpected value: " + j);
